@@ -109,3 +109,35 @@ When we use + operator, JS implicitly converts numbers into string if one or bot
 In case of other operators Strings is converted into Number.
 
 */
+
+/*
+Truthy and Falsy Values
+
+There are only 5 falsy values ::
+
+NaN
+undefined
+0
+""
+null
+
+*/
+
+let age = "18";
+
+if(age == 18){
+    console.log(`Age is 18`);
+}else{
+    console.log(`Age is not 18`);
+}
+
+
+if(age === 18){
+    console.log(`Age is 18`);
+}else{
+    console.log(`Age is not 18`);
+}
+
+if(age !== 18){
+    console.log("hey i am here")
+}
