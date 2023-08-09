@@ -14,21 +14,44 @@
 
 /* Write your code below. Good luck! 🙂 */
 
-const calcAverage = (a,b,c) => {
-    return (a+b+c)/3;
-}
+// const calcAverage = (a,b,c) => {
+//     return (a+b+c)/3;
+// }
 
-let scoreDolphins = calcAverage(44,23,71);
-let scoreKoalas  = calcAverage(23,34,27);
+// let scoreDolphins = calcAverage(44,23,71);
+// let scoreKoalas  = calcAverage(23,34,27);
 
-function checkWinner(avgDolphins,avgKoalas){
-    if(avgDolphins > 2*avgKoalas){
-        console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas}`)
-    }else if(avgKoalas > 2*avgDolphins){
-        console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins}`)
-    }else{
-        console.log("No team wins...")
-    }
-}
+// function checkWinner(avgDolphins,avgKoalas){
+//     if(avgDolphins > 2*avgKoalas){
+//         console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas}`)
+//     }else if(avgKoalas > 2*avgDolphins){
+//         console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins}`)
+//     }else{
+//         console.log("No team wins...")
+//     }
+// }
 
-checkWinner(scoreDolphins,scoreKoalas);
+// checkWinner(scoreDolphins,scoreKoalas);
+
+const jonas = {
+    firstName : "Himanshu",
+    lastName : "Dangwal",
+    age : 24,
+    salary : "NA"
+};
+
+console.log(jonas.age);
+console.log(jonas["firstName"]);
+
+jonas['value'] = 2000;
+jonas.number = 1235;
+
+console.log(jonas.number);   
+console.log(jonas["value"]);
+
+//Below 3 lines of code explains the diferrence between dot and bracket notation
+
+let option = prompt("Select a property");
+
+console.log(jonas[option]);
+console.log(jonas.option);
