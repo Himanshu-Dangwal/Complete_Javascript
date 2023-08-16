@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 //Use below code first with strict mode and then without strict modex
 // let values = 20;
@@ -33,25 +33,41 @@
 
 // checkWinner(scoreDolphins,scoreKoalas);
 
-const jonas = {
-    firstName : "Himanshu",
-    lastName : "Dangwal",
-    age : 24,
-    salary : "NA"
-};
+// const jonas = {
+//     firstName : "Himanshu",
+//     lastName : "Dangwal",
+//     age : 24,
+//     salary : "NA"
+// };
 
-console.log(jonas.age);
-console.log(jonas["firstName"]);
+// console.log(jonas.age);
+// console.log(jonas["firstName"]);
 
-jonas['value'] = 2000;
-jonas.number = 1235;
+// jonas['value'] = 2000;
+// jonas.number = 1235;
 
-console.log(jonas.number);   
-console.log(jonas["value"]);
+// console.log(jonas.number);   
+// console.log(jonas["value"]);
 
-//Below 3 lines of code explains the diferrence between dot and bracket notation
+// //Below 3 lines of code explains the diferrence between dot and bracket notation
 
-let option = prompt("Select a property");
+// let option = prompt("Select a property");
 
-console.log(jonas[option]);
-console.log(jonas.option);
+// console.log(jonas[option]);
+// console.log(jonas.option);
+
+// console.log("Hello Himanshu")
+// console.log("hey")
+
+// const kelvinConvertor = function(){
+//     const obj = {
+//         name : "Himanshu",
+//         age : 23,
+//         value : (prompt("What is your temperature reading"))
+//     }
+
+//     const kelvin = 273 + obj.value;
+//     console.log(kelvin);
+// }
+
+// kelvinConvertor();
