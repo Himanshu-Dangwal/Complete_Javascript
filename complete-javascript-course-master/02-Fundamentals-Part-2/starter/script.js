@@ -2,7 +2,7 @@
 
 //Use below code first with strict mode and then without strict modex
 // let values = 20;
-// if(true) value = 30;
+// value = 30;
 // console.log(values);
 
 
